@@ -14,7 +14,7 @@
 <div id="site-header"></div>
 <main>
 
-<!-- Slider del inicio. TODO: las imágenes y textos se cambian en js/config.js (slides) -->
+<!-- Slider del inicio. (las imágenes y textos se cambian en js/config.js) -->
 <section class="hero" id="hero" aria-roledescription="carrusel" aria-label="Destacados">
   <div class="slides" id="slides"></div>
   <button class="s-arrow" id="prev" aria-label="Anterior"></button>
@@ -23,7 +23,7 @@
   <div class="sbar" id="sbar"></div>
 </section>
 
-<!-- TODO: pongan las ventajas reales del negocio, estas 3 las inventé yo -->
+<!-- Ventajas reales del negocio -->
 <section class="sec"><div class="wrap perks">
   <div class="perk" data-reveal><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 19C5 9 11 4 20 4c0 9-5 15-15 15zM5 19l8-8"/></svg><div><h3>Plantas sanas</h3><p>Las revisamos una por una antes de entregarlas.</p></div></div>
   <div class="perk" data-reveal><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-8-4.700-8-11a4.500 4.500 0 0 1 8-2.800A4.500 4.500 0 0 1 20 10c0 6.300-8 11-8 11z"/></svg><div><h3>Hecho a mano</h3><p>Macetas pintadas con diseños propios.</p></div></div>
@@ -36,13 +36,23 @@
   <p style="text-align:center;margin-top:2rem"><a class="btn btn-primary" href="tienda.html">Ver toda la tienda</a></p>
 </div></section>
 
-<!-- TODO: el video sale cuando pongan el ID de YouTube en js/config.js (videoYoutubeId) -->
+<!-- Video de Youtube -->
 <section class="sec"><div class="wrap">
   <div class="sec-head" data-reveal><span class="eyebrow">Conócenos</span><h2>Mira cómo trabajamos</h2></div>
-  <div class="video" id="videoBox" data-reveal></div>
+  <div class="video" id="videoBox" data-reveal>
+    <iframe
+      src="https://www.youtube.com/embed/RMSnOe6kxa4"
+      title="Mira cómo trabajamos"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      referrerpolicy="strict-origin-when-cross-origin"
+      allowfullscreen
+      loading="lazy">
+    </iframe>
+  </div>
 </div></section>
 
-<!-- TODO: cambien las cifras (data-count) por datos reales o quiten esta sección si no las tenemos -->
+<!-- TODO: cambiar las cifras (data-count) -->
 <section class="sec alt"><div class="wrap">
   <div class="stats" data-reveal>
     <div class="stat"><b data-count="28">0</b><span>productos</span></div>
@@ -52,7 +62,7 @@
   </div>
 </div></section>
 
-<!-- TODO: los testimonios se cambian en js/config.js (testimonios) -->
+<!-- Testimonios (se cambian en js/config.js) -->
 <section class="sec"><div class="wrap">
   <div class="sec-head" data-reveal><span class="eyebrow">Opiniones</span><h2>Lo que dicen quienes nos compran</h2><p>Ejemplos provisionales: se cambian por opiniones reales.</p></div>
   <div class="testis" id="testi"></div>
