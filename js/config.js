@@ -30,9 +30,7 @@ window.SITE = {
   envio: { costo: 60, gratisDesde: 600 },
 
   // TODO (importante): aquí va el ID del video de YouTube cuando lo subamos.
-  // Es lo que va después de "v=" en la liga. Ejemplo:
-  // https://www.youtube.com/watch?v=ABCDEFGHIJK  ->  "ABCDEFGHIJK"
-  videoYoutubeId: "",
+  videoYoutubeId: "RMSnOe6kxa4",
 
   // TODO (importante): cuando tengamos nuestras fotos las guardamos en /img y
   // cambiamos esto a true. Piden que las imágenes sean de nuestra autoría,
